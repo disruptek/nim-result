@@ -7,7 +7,7 @@ Result type that can hold either a value or an error, but not both
 Add the following to your `.nimble` file:
 
 ```
-requires "result"
+requires "https://github.com/disruptek/results"
 ```
 
 or just drop the file in your project!
@@ -15,7 +15,7 @@ or just drop the file in your project!
 ## Example
 
 ```nim
-import result
+import results
 
 # It's convenient to create an alias - most likely, you'll do just fine
 # with strings as error!

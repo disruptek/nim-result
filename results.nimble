@@ -11,4 +11,4 @@ skipDirs      = @["benchmarks"]
 requires "nim >= 0.19.6"
 
 task test, "Runs the test suite":
-  exec "nim c -r result"
+  exec "nim c -r results"
